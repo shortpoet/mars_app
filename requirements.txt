@@ -1,0 +1,8 @@
+splinter==0.10.0
+bs4==0.0.1
+pandas==0.23.4
+Flask==1.0.2
+Flask-Cors==3.0.6
+Flask-PyMongo==2.2.0
+requests==2.21.0
+pymongo==3.7.2

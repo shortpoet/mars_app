@@ -1,0 +1,96 @@
+body {
+    padding: 1% 1% 5% 1%;
+    color: maroon;
+}
+
+#news {
+    padding: 20px !important;
+}
+
+.hemispheres {
+    border: rebeccapurple 1px solid;
+    padding: .75% !important;
+    margin: 1%;
+    text-align: center;
+}
+
+/*Why does this override the #weather border and why doesn't that one contain this box??? */
+.box {
+    height: auto;
+    width: auto;
+    border: rebeccapurple 1px solid;
+    padding: 5%;
+    background-color: silver;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+}
+
+#featured-image, #traverse-map img{
+    border: rebeccapurple 1px solid;
+    background-color: silver;
+}
+
+.side {
+    vertical-align: middle;
+    margin: 50% 0 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: silver;
+}
+
+th, td {
+    padding: 1%;
+    /*border: 1px solid black;*/
+}
+
+th {
+    background-color: rebeccapurple;
+}
+
+tr:nth-child(even) {
+    background-color: rebeccapurple;
+}
+
+tr:nth-child(odd) {
+    background-color: maroon;
+}
+
+.btn {
+    background-color: silver;
+    border: 2px solid rebeccapurple;
+}
+
+a {
+    color: rebeccapurple;
+}
+
+hr {
+    border-color: maroon;
+}
+
+.jumbotron {
+    background-color: maroon;
+    color: silver;
+}
+
+#glyph {
+    color: rebeccapurple;
+    display: inline-block;
+}
+
+#tech-info {
+    color: rebeccapurple;
+    display: inline-block;
+    white-space: normal;
+}
+/*added because #xyz can be a very long words and cause text to overflow out of div
+p {
+    overflow-wrap: break-word;
+}
