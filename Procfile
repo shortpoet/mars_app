@@ -1,1 +1,1 @@
-web: python mars_app.app:app
+web: gunicorn mars_app.app:app $PORT
