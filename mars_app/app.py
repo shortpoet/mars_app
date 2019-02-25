@@ -1,8 +1,8 @@
 from flask import Flask, render_template, redirect, Markup, url_for
 from flask_pymongo import PyMongo
-from scrape_mars import scrape_info
-from mars_facts_table import scrape_table
-from mars_rover import scrape_rover
+from .scrape_mars import scrape_info
+from .mars_facts_table import scrape_table
+from .mars_rover import scrape_rover
 import os
 from pymongo import MongoClient
 
