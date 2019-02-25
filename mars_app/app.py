@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.debug = True
 
 app.config['MONGO_URI'] = os.environ['MONGODB_URI'] or "mongodb://localhost:27017/mars_app"
-mongo = PyMongo(app, config_prefix='MONGO')
+mongo = PyMongo(app)
 db = mongo.db.collection.find_one()
 
 # uri = 'mongodb://user:pass@host:port/db' 
