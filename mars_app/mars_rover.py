@@ -12,7 +12,7 @@ import requests
 # ? is there a more secure workaround ?
 
 def scrape_rover():
-    executable_path = {'executable_path': '/Users/soria/Anaconda3/Scripts/chromedriver.exe'}
+    executable_path = {'executable_path': 'chromedriver.exe'}
     browser = Browser('chrome', **executable_path, headless=False)
     try:
         url = 'https://mars.nasa.gov/mer/mission/status.html'

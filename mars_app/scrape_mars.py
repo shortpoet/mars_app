@@ -9,7 +9,7 @@ import os
 from pprint import pprint
 
 def init_browser():
-    executable_path = {'executable_path': '/Users/soria/Anaconda3/Scripts/chromedriver.exe'}
+    executable_path = {'executable_path': 'chromedriver.exe'}
     return Browser('chrome', **executable_path, headless=False)
 
 def scrape_info():
