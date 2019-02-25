@@ -9,7 +9,7 @@ from pymongo import MongoClient
 app = Flask(__name__)
 app.debug = True
 
-app.config['MONGO_URI'] = os.environ['MONGOLAB_URI'] or "mongodb://localhost:27017/mars_app"
+app.config['MONGO_URI'] = os.environ['MONGODB_URI'] or "mongodb://localhost:27017/mars_app"
 mongo = PyMongo(app, config_prefix='MONGO')
 db = mongo.db.collection.find_one()
 
@@ -18,7 +18,7 @@ db = mongo.db.collection.find_one()
 
 # client = pymongo.MongoClient(uri)
 
-db = client.get_default_database()
+# db = client.get_default_database()
 
 
 # Route to render index.html template using data from Mongo
