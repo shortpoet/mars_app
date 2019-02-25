@@ -1,1 +1,1 @@
-web: python mars_app.app.py
+web: python mars_app.app:app
